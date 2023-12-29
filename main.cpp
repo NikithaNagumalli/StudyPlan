@@ -19,8 +19,9 @@ void createStudyPlan(int weeks, map<string, double> chapterToTime) {
     double timePerWeek = totalTime / weeks;
     double timeLeft = timePerWeek;
     for (int i = 0; i < weeks; i++) {
+        cout << "" << endl;
         cout << "WEEK " << i + 1 << ": " << endl;
-        while (timeLeft > 0) {
+        while (timeLeft > 0 && it != chapterToTime.end()) {
             if (timeLeft - it->second >= 0) {
                 cout << it->second << " hours of "<< it->first << endl;
                 timeLeft -= it->second;
