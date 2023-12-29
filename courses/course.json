@@ -1,0 +1,17 @@
+{
+    "weeks": 2,
+    "chapters": [
+        {
+            "name": "chapter1",
+            "time": 1
+        },
+        {
+            "name": "chapter2",
+            "time": 2
+        },
+        {
+            "name": "chapter3",
+            "time": 2
+        }
+    ]
+}
